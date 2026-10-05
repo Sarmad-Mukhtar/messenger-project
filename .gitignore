@@ -1,0 +1,65 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node.js dependencies
+**/node_modules/
+
+# Build output
+**/dist/
+**/.next/
+**/build/
+**/out/
+
+# Python
+**/__pycache__/
+*.py[cod]
+**/celery-venv/
+
+# TypeScript build cache
+**/*.tsbuildinfo
+
+# Test coverage
+**/coverage/
+**/.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / editor
+**/.idea/
+**/.vscode/
+**/.cursor/
+**/.claude/
+**/.agents/
+**/.devin/
+
+# OS
+.DS_Store
+
+# Runtime / temporary files
+**/.temp/
+**/.tmp/
+**/pids/
+*.pid
+*.pid.lock
+*.seed
+
+# Local uploads
+**/uploads/
+
+# Frontend environment files
+**/.env*
+
+# Next.js
+**/.vercel/
+
+# Local test files
+backend/test-user2.cjs
+backend/test-websocket.cjs
+backend/test.txt
